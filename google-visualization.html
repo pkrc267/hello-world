@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8" />
@@ -9,10 +9,6 @@ textarea {
   width:100%;
 }
 </style>
-<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
-<script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
-<script src="http://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['controls', 'charteditor']}]}"></script>
-<script src="https://github.com/evanplaice/jquery-csv/blob/master/src/jquery.csv.js"></script>
 </head>
 <body>
   <div id="tabs">
@@ -30,7 +26,10 @@ textarea {
     </div>
   </div>
 
-
+  <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+  <script src="http://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['controls', 'charteditor']}]}"></script>
+  <script src="jquery.csv.js"></script>
   <script>
     $(function() {
       $("#tabs").tabs();
